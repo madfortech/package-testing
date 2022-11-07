@@ -5,13 +5,13 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.17",
-        "fruitcake/laravel-cors": "^3.0.0",
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^7.5.0",
         "laravel/framework": "^9.3.7",
         "laravel/sanctum": "^2.15.1",
         "laravel/tinker": "^2.7.2",
-        "laravel/ui": "^3.4.6"
+        "laravel/ui": "^3.4.6",
+        "madfortech/separate-admin-dashboard-with-no-crud": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.20.0",
@@ -64,14 +64,10 @@
     "repositories": [
         {
           "type": "path",
-          "url": "../changepassword",
-          "options": {
-            "symlink": false
-          }
-           
+          "url": "../seperate-admin-dashboard-with-no-crud"
         }
       ],
-
+    
     "minimum-stability": "dev",
     "prefer-stable": true
 }
