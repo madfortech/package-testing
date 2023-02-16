@@ -13,15 +13,15 @@ class CreateDemoProjectTable extends Migration
      */
     public function up()
     {
-        Schema::create('demoprojects', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->string('password_confirmation');
-            $table->timestamps();
-        });
+        // Schema::create('demoprojects', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('name');
+        //     $table->string('email')->unique();
+        //     $table->timestamp('email_verified_at')->nullable();
+        //     $table->string('password');
+        //     $table->string('password_confirmation');
+        //     $table->timestamps();
+        // });
     }
 
     /**
@@ -31,6 +31,6 @@ class CreateDemoProjectTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('demoprojects');
+        //Schema::dropIfExists('demoprojects');
     }
 }
